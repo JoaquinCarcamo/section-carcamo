@@ -13,6 +13,7 @@ h1,
 h2{
     padding-top: 160px;
     color:white;
+
 }
 .nav-item{
     font-size: 14px;
@@ -43,8 +44,7 @@ h2{
     height:auto;
 }
 #parte3 img{
-    width: auto;
-    height:100vh;
+    height: 100vh;
 
 }
 
@@ -72,3 +72,16 @@ h2{
     position: absolute;
     opacity: 99%;
 }
+/*
+.imagenes{
+    position: relative;
+    z-index: 0;
+}
+.overlay2{
+    position: absolute;
+    z-index: 1;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+}*/
