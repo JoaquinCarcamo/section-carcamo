@@ -1,5 +1,5 @@
 header {
-    background-color: yellow;
+    background-color: darkslategray;
     color: black;
     padding: 20px;
     display: flex;
@@ -7,11 +7,10 @@ header {
 
 .navbar{
     float: right;
+    background-color: black;
 }
 
-
 .nav-item{
-
     font-size: 14px;
 }
 .logo img {
@@ -22,6 +21,7 @@ header {
 #parte1,
 #parte2,
 #parte3 {
+    background-color: black;
     background-size: cover;
     height: 100vh;
 }
@@ -31,4 +31,33 @@ header {
 #parte3 img {
     width: 100%;
     height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.imagen {
+    display: inline-block;
+    position: absolute;
+    opacity: 99%;
+
+}
+
+.imagen:hover .overlay {
+    display: inline-block;
+    position: absolute;
+    opacity: 99%;
+
 }
