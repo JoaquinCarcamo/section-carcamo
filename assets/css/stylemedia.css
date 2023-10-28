@@ -1,0 +1,55 @@
+@media (min-width: 300px) and (max-width: 560px){
+    .navbar-toggler{
+        float: right;
+        width: 100vh;
+    }
+    .navbar{
+        float: right;
+        height: auto;
+        width: 100vh;
+    }
+
+    h1,h2{
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 561px) and (max-width: 720px){
+    .navbar{
+        position: absolute;
+    }
+
+    h1,h2{
+        font-size: 15px;
+    }
+}
+@media (min-width: 721px) and (max-width: 1024px){
+    .navbar{
+        float: right;
+    }
+
+    h1,h2{
+        font-size: 18px;
+    }
+}
+
+
+
+@media (min-width: 1025px) and (max-width: 1140px){
+    .navbar{
+        position: absolute;
+    }
+
+    h1,h2{
+        font-size: 21px;
+    }
+}
+@media (min-width: 1141px) and (max-width: 1440px){
+    .navbar{
+       position: absolute;
+    }
+
+    h1,h2{
+        font-size: 25px;
+    }
+}
